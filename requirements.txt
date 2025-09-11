@@ -1,0 +1,38 @@
+For Creating a virtual envronments
+
+PS D:\Jarvis> python -m venv venv
+PS D:\Jarvis> .\venv\Scripts\activate
+
+After activating this virtual environment
+
+the command will changed
+(venv) PS D:\Jarvis> 
+
+
+Required packages for the project
+=====================================
+pip install \
+  "livekit-agents[openai]~=1.2" \
+  "livekit-plugins-noise-cancellation~=0.2" \
+  "python-dotenv"
+
+  original
+livekit-agents
+livekit-plugins-noise-cancellation~=0.2
+python-dotenv
+livekit-agents[google]~=1.2
+
+"Too Install All those stuffs use This"venv) PS D:\Jarvis> pip install -r req.txt""
+
+openai I use google
+pip install "livekit-agents[google]~=1.2"
+
+GOOGLE API
+AIzaSyDs0ksb1K9iU6-Boyqjv-Gy_B-Ub4KCelc
+AIzaSyDs0ksb1K9iU6-Boyqjv-Gy_B-Ub4KCelc
+
+websites=https://docs.livekit.io/agents/start/voice-ai/
+
+running this file
+
+ python agent.py dev
